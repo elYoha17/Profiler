@@ -8,8 +8,9 @@
 
     @viteReactRefresh
     @vite('resources/js/app.jsx')
+    @inertiaHead
 </head>
 <body>
-    <div id="app"></div>
+    @inertia
 </body>
 </html>

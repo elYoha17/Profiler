@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ config('app.name', 'Profiler') }}</title>
 
+    @routes
     @viteReactRefresh
     @vite('resources/js/app.jsx')
     @inertiaHead
